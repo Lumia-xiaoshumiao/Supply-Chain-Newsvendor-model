@@ -29,7 +29,7 @@ for(Q in 100:1000){
 }
 
 ProfitProfile
-plot(seq(100,1000),ProfitProfile,type="l")
+plot(seq(100,1000),ProfitProfile,type="b")
 
 MaxProfit<- max(ProfitProfile)
 MaxProfit
